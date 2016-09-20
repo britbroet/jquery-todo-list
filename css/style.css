@@ -1,0 +1,92 @@
+body {
+	font-family: 'amatic sc', cursive;
+}
+
+h1 {
+	color: #444;
+	font-weight: bold;
+	font-size: 60px;
+	margin: 0;
+	text-align:center;
+	text-decoration: underline;
+	padding-top: 20px;
+}
+
+.toDoList {
+	font-size: 30px;
+	text-align; left;
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#sortable li {
+	margin: 5px;
+}
+
+#sortable li:hover {
+	cursor: pointer; 
+	cursor: hand;
+}
+
+
+.trash {
+	width: 24px;
+    float: right;
+    padding: 6px 0 6px 6px;
+}
+
+.move {
+    width: 18px;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.btn {
+	float: right;
+	width: 24px;
+	margin: 10px 4px 0 0;
+}
+
+
+#textField {
+    font-size: 30px;
+    width: 250px;
+    font-family: 'amatic sc', cursive;
+    padding-left: 10px;
+}
+
+
+input::-webkit-input-placeholder {
+	font-family: 'amatic sc', cursive !important;
+	font-size: 30px;
+	color: #555;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */ 
+	font-family: 'amatic sc', cursive !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */ 
+	font-family: 'amatic sc', cursive !important;
+}
+ 
+input:-ms-input-placeholder {  
+	font-family: 'amatic sc', cursive !important; 
+}
+
+.trash:hover {
+ cursor: pointer;	
+}
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.listBg {
+margin-top: 20px;
+background-image: url("../img/notepaper.jpg");
+background-repeat: repeat;
+min-height: 400px;
+padding: 0 35px 15px 35px;
+}
