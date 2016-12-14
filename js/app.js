@@ -9,7 +9,7 @@ $(document).ready(function() {
 	$("#addItem").click(function() {
 		var newItem = $('input[name=textField]').val();
 			if (newItem.length > 0) {
-			$('ul').append('<li>' + '<img src="../img/move.png" class="move">' + newItem + '<img src="img/delete.png" class="trash">' + '</li>'); 
+			$('ul').append('<li>' + '<img src="img/move.png" class="move">' + newItem + '<img src="img/delete.png" class="trash">' + '</li>'); 
 			$('#textField').val("");
 			$('li .trash').click(function() {
 				$(this).parent('li').fadeOut(300);
