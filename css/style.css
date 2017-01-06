@@ -102,3 +102,10 @@ input:-ms-input-placeholder {
 
 
 
+
+@media (max-width: 465px) {
+	h1 {
+		font-size: 48px;
+	}
+}
+
